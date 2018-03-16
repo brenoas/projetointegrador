@@ -33,6 +33,7 @@
 		<input type="number" name="cnpj" maxlength="18" placeholder="Inserir CNPJ" required/><br/>
 		<input type="submit" value="Cadastrar">
 		</fieldset>
+		
 		<fieldset>
 		<legend>Localidade</legend>
 		<label for="cep">CEP:</label></br>
@@ -44,9 +45,38 @@
 		<label for="cidade">Cidade:</label></br>
 		<input type="text" name="cidade" size="20" placeholder="Inserir cidade" required/><br/>
 		<label for="uf">UF:</label></br>
-		<input type="tinytext" name="uf"  maxlength="2" placeholder="Inserir uf" required/><br/>
+		<select name="uf">
+			<option>AC</option>
+			<option>AL</option>
+			<option>AM</option>
+			<option>AP</option>
+			<option>BA</option>
+			<option>CE</option>
+			<option>DF</option>
+			<option>ES</option>
+			<option>GO</option>
+			<option>MA</option>
+			<option>MG</option>
+			<option>MS</option>
+			<option>MT</option>
+			<option>PA</option>
+			<option>PB</option>
+			<option>PE</option>
+			<option>PI</option>
+			<option>PR</option>
+			<option selected>RJ</option>
+			<option>RN</option>
+			<option>RO</option>
+			<option>RR</option>
+			<option>RS</option>
+			<option>SC</option>
+			<option>SE</option>
+			<option>SP</option>
+			<option>TO</option>
+		</select><br/><br/>
 		<input type="submit" value="Cadastrar">
 		</fieldset>
+		
 		<fieldset>
 		<label for="telefone">Telefone:</label></br>
 		<input type="number" name="telefone" maxlength="20" placeholder="Inserir telefone" required/><br/>		
@@ -55,7 +85,7 @@
 		<label for="website">Website:</label></br>
 		<input type="text" name="website" size="50" maxlength="100" placeholder="Inserir website" required/><br/>
 		<label for="email">Email:</label></br>
-		<input type="text" name="email" size="50" maxlength="100" placeholder="Inserir email" required/><br/>
+		<input type="email" name="email" size="50" maxlength="100" placeholder="Inserir email" required/><br/>
 		<input type="submit" value="Cadastrar">
 				
 	</form>
