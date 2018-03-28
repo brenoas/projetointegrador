@@ -11,20 +11,21 @@
 		
 	<h1>Cadastro da Empresa</h1>
 	<h2>Preencher o Formulário abaixo</h2>
-	<form method="POST">
-				
+	<form method="get" action="teste.php">
+	
+		<label>Razão Social:</label><br/>		
 		<input type="text" name="razao_social" size="50" maxlength="255" placeholder="Razão social" required/><br/>
-		
+		<label>Fantasia:</label><br/>
 		<input type="text" name="fantasia" size="50" maxlength="255" placeholder="Fantasia"required/><br/>
-		
+		<label>CNPJ:</label><br/>
 		<input type="number" name="cnpj" maxlength="18" placeholder="CNPJ" required/><br/>
-		
+		<label>Senha:</label><br/>
 		<input type="password" name="senha" placeholder="Senha" required/></br>
-			
+		<label>Email:</label><br/>
 		<input type="email" name="email" size="50" maxlength="100" placeholder="Email" required/><br/>
-		
+		<label>Telefone:</label><br/>
 		<input type="number" name="telefone" maxlength="20" placeholder="Telefone" required/><br/>		
-		
+		<label>Responsável:</label><br/>
 		<input type="text" name="nome_responsavel" size="50" maxlength="255" placeholder="Responsável"  required/><br/>
 		
 		<button type="submit">Cadastrar</button>
