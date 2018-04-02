@@ -1,0 +1,117 @@
+main {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.janela1 {
+    background-color: gray;
+    height: 300px;
+    width: 250px;
+    float: left;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.janela2 {
+    background-color: gray;
+    height: 300px;
+    width: 250px;
+    float: right;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.janela3 {
+    background-color: gray;
+    height: 300px;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    margin: 0 5%;
+}
+
+.janela4 {
+    background: gray;
+    background-size: contain;
+    background-position: bottom;
+    height: 300px;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 0px;
+    margin-top: 1%;
+}
+
+.janela5 {
+    background-color: gray;
+    height: 306px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 0 5%;
+    margin-top: 1%
+}
+
+.janela6 {
+    background-color: gray;
+    height: 306px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 1%
+}
+
+.janela7 {
+    background: url('http://coopsp.vteximg.com.br/arquivos/ids/159267/acougue.jpg?v=636144865498600000')no-repeat 0 0;
+    background-position: center;
+    height: 240px;
+    width: 1165px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+
+
+.janela8 {
+    background: gray;
+    ;
+    float: left;
+    border-radius: 10px;
+    height: 300px;
+    width: 1165px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.janela9 {
+    background: gray;
+    float: left;
+    height: 300px;
+    width: 1165;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+}
+
+.janela10 {
+    background: white;
+    background-position: center;
+    background-size: contain;
+    height: 280px;
+    width: 1165px;
+    float: left;
+    margin-bottom: 20px;
+
+}

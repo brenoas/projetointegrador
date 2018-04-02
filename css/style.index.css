@@ -1,0 +1,149 @@
+
+/*
+.janela1 {
+    background-color:azure;
+    height: 300px;
+    float: left;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px
+
+}
+
+.janela2 {
+    background-color: azure;
+    height: 300px;
+    width: 250px;
+    float: left;
+    padding:20px;
+    border-radius: 10px;
+         
+}*/
+
+.janela3
+{
+    background-color:red;
+    height: 370px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.multimarket
+{
+    position: sticky;
+    bottom: 2.5em;
+    right: em;
+}
+
+.marketbottom
+{
+    position: relative;
+    bottom: 2.1em;
+}
+
+
+
+.janela4
+{
+    background:url('https://i2.wp.com/www.brasilfranquias.com/wp-content/uploads/2016/06/Franquia-de-Frios-e-Laticinios.jpg?fit=1155%2C468&ssl=1')no-repeat 0 0;
+    background-size: contain;
+    background-position: bottom;
+    height: 300px;
+    width: 550px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 0px;
+}
+
+/*.janela5
+{
+    background-color:azure ;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin: 0px 15px;
+    
+}
+
+.janela6
+{
+    background-color: azure;
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    float: right;
+    
+}*/
+
+.janela7
+{
+    background:url('http://coopsp.vteximg.com.br/arquivos/ids/159267/acougue.jpg?v=636144865498600000')no-repeat 0 0;
+    background-position: center;
+    height: 240px;
+    width: 1165px;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-bottom:20px;
+}
+
+
+
+.hortifruti
+{
+    background: url('http://frutariafrutadope.com.br/wp-content/uploads/2015/05/Hortifruti.png')no-repeat 0 0;
+    float:left;
+    height: 300px;
+    width: 1165px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.promocao 
+{
+    float: left;
+}
+
+.promocao h3
+{
+    
+    font-size: 2em;
+    padding: 0px;
+    margin: 30px 0 0px;
+}
+
+.limpeza
+{
+    background: url('http://coopsp.vteximg.com.br/arquivos/ids/159266/limpeza.jpg?v=636144729168300000')no-repeat 0 0;
+    background-position: center;
+    background-size: contain;
+    height: 280px;
+    width: 1165px;
+    float: left;
+    margin-bottom: 20px;
+    
+
+}
+
+
+
+
+
+footer {
+    margin: 0px 0px;
+    padding: 100px 0px;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    clear: both;  
+    position:relative;
+}
+

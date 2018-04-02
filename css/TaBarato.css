@@ -1,0 +1,206 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#topo {
+    background: #f1f1f1;
+    padding: 0.5%;
+}
+
+#topo a {
+    float: right;
+    color: #333;
+    display: block;
+    padding: 4px 6px;
+}
+
+#header {
+    background-color: #f1f1f1;
+    padding: 3%;
+    text-align: center;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 35%;
+}
+
+main {
+    width: 80%;
+    height: 5000px;
+}
+
+.precos {
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    height: 7em;
+    position: ;
+    top: 17em;
+    border-radius: 100px;
+}
+
+.dinheiro {
+    background-color: white;
+}
+
+.conteudos {
+    display: block;
+    width: 100%;
+    height: 4000px;
+    position: ;
+}
+
+.item {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: inherit;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 10px;
+    margin: 20px 10px;
+    float: left;
+}
+
+.item2 {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 10px;
+    margin: 20px 20px;
+    float: right;
+}
+
+.item3 {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 20px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.item4 {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 10px;
+    margin: 20px 20px;
+    float: right;
+}
+
+.item5 {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 10px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.item6 {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 10px;
+    margin: 20px 20px;
+    float: right;
+}
+
+.item7 {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 10px;
+    margin: 20px 20px;
+    float: left;
+}
+
+.item8 {
+    background: url('http://comidascaseiras.com.br/wp-content/uploads/2014/01/patinho.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+    position: ;
+    padding: 10px;
+    margin: 10px 20px;
+    float: right;
+}
