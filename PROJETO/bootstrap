@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!--
+introdução:
+ Bootstrap é uma biblioteca ou conjunto de códigos(bibliotecas, elementos) que alguem ou uma empresa fez com o objetivo de auxiliar o programador
+nas suas tarefas do dia a dia, como por exemplo(criar o topo de um site, voce utiliza uma classe e pronto).
+ * É um framework front-end, envolve as linguagens (css, html e js).
+
+ # Sua principal vantagem é que automaticamente cria os sites com responsividade.
+ # Facil de aprender
+ # Compativel com os principais browsers da internet
+Criado por funcionário do twitter
+
+    mais CLASSES: https://www.w3schools.com/bootstrap/bootstrap_typography.asp
+
+-->
+<html>
+    <head>
+        <title>Bootstrap V3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Regras a ser seguidas: primeiro carregar o css, pois se deixar para carregar por ultimo por ser que apareça a pagina quebrada e depois a pagina acerta-->
+        <link rel="stylesheet" href="bootstrap.min.css" />
+        <!--sempre puxar primeiro o jquery para depois o bootstrap-->
+        <script type="text/javascript" src="jquery-3.3.1.min.js" ></script>
+        <script type="text/javascript" src="bootstrap.min.js" ></script>
+    </head>
+    <body>
+        <div>Bootstrap Container: </div>
+        <div class="container">
+            <h1>Box, container, onde fica o conteudo do nosso site</h1>
+            <p>box do site INTEIRO</p>
+        </div>
+        <div class="container-fluid">
+            <h1>Layout sem largura fixa, mas continua resposivo</h1>
+            <p>Esta classe utiliza toda largura da tela, sites como (terra, americanas, saraiva etc...)</p>
+        </div>
+        <hr />
+        <div class="container">
+            <h1>Bootstrap GRID</h1>
+            <p>Conceito de tabelas, linhas e colunas, </p>
+            <div class="row">
+                Com esta div class row acabamos de criar uma linha, nesta linha voce pode ter até 12 colunas
+            </div>
+            <div class="row">
+                <div class="col-sm-3" style="text-align: center;">Criando 3 colunas na minha linha.</div>
+                <div class="col-sm-3">A soma tem que dar 12 por isso 3 de 4</div>
+                <div class="col-sm-3">col é coluna, sm é um tipo de classe, vai funcionar até tablet, xs classe que vai até telefones e md para desktops ou seja vai segurar a formatação até a tela chegar a uma dessas classes, depois que chegar ela quebra a coluna e transforma em linha</div>
+                <div class="col-sm-3">xs = extra small, sm = small, md de medium e lg de large(grande monitores > 23' polegadas full hd)</div>
+            </div>
+        </div>
+        <hr />
+        <div class='container'>
+            <h1>ESTILOS DO <small>BOOTSTRAP</small></h1>
+            <p><mark>Estilos</mark> de textos do <abbr title="Um framework muito bom">bootstrap</abbr>, tag de marcação e tag de explicação de algo especifico</p>
+            <blockquote>
+                Essa é uma citação muito famosa, se quiser alinhar a direita é só utilizar o nome da classe blockquote-reverse
+                <footer>
+                    Autor Desconhecido
+                </footer>
+            </blockquote>
+            <div class="row">
+                <div class="col-sm-2" style="background-color: #888; text-align: center;">
+                    MENU
+                </div>
+                <div class='col-sm-10' style="background-color: #ccc; text-align: center;">CORPO DA PAGINA</div>
+            </div>
+
+            Lista de citação
+            <dl>
+                <dt>Definition Term</dt>
+                <dd> - Description Definition and DL = description list</dd>
+                <dt>Café</dt>
+                <dd> - Bebida quente e preta.</dd>
+
+            </dl>
+
+            <p>Para fazer uma citação no bootstrap, use: <code>blackquote</code> e tambem <code>footer</code></p>
+            <p>Para especificar comandos: </p>
+            <p>Para salvar, aperte em:  <kbd>Ctrl + S</kbd></p>
+            <pre>
+                                        Texto do jeito
+                                        que esta no seu
+                                        editor
+            </pre>
+            <p class="text-danger">Este texto representa algum tipo de perigo</p>
+            <p class="bg-danger">Este texto representa algum tipo de perigo</p>
+            <p class="bg-info">Este texto representa algum tipo de informação</p>
+            <p class="bg-warning text-lowercase">ESTE TEXTO REPRESENTA UM AVISO</p>
+            <p class="bg-success">Este texto representa sucesso</p>
+            <p class="bg-primary">Este texto representa tipo padrao do bootstrap</p>
+            <p class="text-center text-uppercase">Estas classes alinha o texto no centro e deixa maiusculo sem css respectivamente</p>
+
+
+            <hr/>
+            <p>Tabelas no bootstrap, table estiliza e table-striped coloca fundo em linha sim e linha nao, classe table-condesed junta mais os item da tabela</p>
+            <p>Se utilizar thead e tbody ele coloca fundo apenas no body e pula o cabeçalho, existe a classe table-hover que quando passa o mouse ela muda o fundo</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr class="active">
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>>
+                <tbody>
+                    <tr class='danger'>
+                        <td>Vlademir</td>
+                        <td>Manoel</td>
+                        <td>vlademir98@hotmail.com</td>
+                    </tr>
+                    <tr class='success'>
+                        <td>Fulano</td>
+                        <td>Fulaninho</td>
+                        <td>fulano1198@hotmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Ciclano</td>
+                        <td>Ciclanuinho</td>
+                        <td>ciclano@hotmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Classes para tratamento de imagens no bootstrap</p>
+            <img src="#" class="img-responsive img-thumbnail" />
+            transforma imagem muito grande em responsiva img-rounded deixa as bordas arredondas, img-circle deixa a imagem redonda, se a imagem for quadrada vai ficar uma bola mesmo perfeita
+            , utilizar img-thumbnail para colocar uma borda de miniatura
+            <hr/>
+            <button class="btn btn-default">btn-default deixa button compativel com layout, pode acrescebtar btn-sm ou xs</button> 
+            <button class="btn btn-block">botão responsivo</button> 
+            <button class="btn btn-primary">botão primario</button> 
+            <button class="btn btn-danger disabled">desabilitar botão</button>
+            <hr/>
+
+            <p>Qual empresa voce prefere ?</p>
+            <div class="btn-group">
+                <button class="btn btn-primary">Apple</button> 
+                <button class="btn btn-primary">Samsung</button> 
+                <button class="btn btn-primary">Sony</button> 
+                <button class="btn btn-primary">Asus</button> 
+            </div>
+            <p>BOTAO RESPONSIVO</p>
+            <div class="btn-group btn-group-justified">
+                <a class="btn btn-primary">Apple</a> 
+                <a class="btn btn-primary">Samsung</a> 
+                <a class="btn btn-primary">Sony</a> 
+                <a class="btn btn-primary">Asus</a> 
+            </div>
+            BOTAO VERTICAL
+            <div class="btn-group btn-group-vertical">
+                <a class="btn btn-primary">Apple</a> 
+                <a class="btn btn-primary">Samsung</a> 
+                <a class="btn btn-primary">Sony</a> 
+                <a class="btn btn-primary">Asus</a> 
+            </div>
+            <hr />
+            <p>BOTAO DROP DOWN</p>
+            dropdown-toggle vai dizer que é para ele mostrar ou desaparecer com as opções<br/>
+            
+            data-toggle="dropdown" = botao principal do dropdown
+            caret = setinhas
+            <hr/>
+
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">Linguagens a serem aprendidas</li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li class="divider"></li><!--Divisor do menu como hr-->
+                <li class="disabled"><a href="#">JavaScript</a></li>
+
+            </ul>
+        </div>
+        Exemplo Explicado
+        A .dropdownclasse indica um menu suspenso.
+
+        Para abrir o menu suspenso, use um botão ou um link com uma classe .dropdown-togglee o data-toggle="dropdown"atributo.
+
+        A .caretclasse cria um ícone de seta do cursor (), o que indica que o botão é um menu suspenso.
+
+        Adicione a .dropdown-menuclasse a um <ul>elemento para realmente criar o menu suspenso.
+            A .dividerclasse é usada para separar links dentro do menu suspenso com uma fina borda horizontal: 
+            A .dropdown-headerclasse é usada para adicionar cabeçalhos dentro do menu suspenso:
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">WebSiteName</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">WebSiteName</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                                <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1-1</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="jumbotron">
+                <h1>aviso no inicio na pagina, coisas importantes que o usuario precisa saber responsivo</h1>
+                <p>Curso de boostrap é o melhor framework front end</p>
+            </div>
+            <hr/>
+            mensagens de aviso
+            <div class="alert alert-success">
+                Senha criada com sucesso!
+
+            </div>
+            <div class="alert alert-danger">
+                Email ou senha incorretos!
+
+            </div>
+            <div class="alert alert-warning">
+                Sua fatura está vencendo!
+
+            </div>
+            <div class="alert alert-success fade in">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                Senha alterada com sucesso!, fade in é para quando fechar ele fechar devagar 
+                data dismiss vai dizer o que ele vai fechar quando clisa no close
+                arialabel close indica que o X tem que aparecer e times é uma codificação apra aparecer o X
+            </div>
+            <hr />
+            <button class="btn btn-primary">Mensagens <span class="badge">7</span></button>
+            <h5>Menu <span class="label label-warning">novo</span></h5>
+            <hr />
+            Panel
+            <div class="panel panel-success">
+                <div class="panel-heading">Esportes</div>
+                <div class="panel-body">Noticias e conteudos sobre esportes</div>
+            </div>
+            <hr>
+            <button data-toggle="collapse" data-target="#teste">Mostrar/Ocultar</button>
+            <a data-toggle="collapse" href="#teste">Mostrar/Ocultar</a>
+            <div id="teste" class="collapse">Uma frase qualquer, se colocar a class IN ele ja inicia mostrando estava div </div>
+            <hr/>
+            <div class="container">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#politica">Politíca</a>
+                        </h4>
+                    </div>
+                    <div id="politica" class="collapse panel-collapse">
+                        <div class="panel-body">
+                            Conteudo interno do panel. djfdsjfksd sdjfklsdjfsd fsdf sdf dsfgfdgsdgf dgdfsgsd
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                Grupo de lista
+                <ul class="list-group">
+                    <li class="list-group-item">Item 1</li>
+                    <li class="list-group-item">Item 2</li>
+                    <li class="list-group-item">Item 3</li>
+                    <li class="list-group-item">Item 4</li>
+                    <li class="list-group-item">Item 5</li>
+                </ul>
+                <div class="list-group">
+                    <a class="list-group-item active">Item 1</a>
+                    <a class="list-group-item list-group-item-success">Item 2</a>
+                    <a class="list-group-item">Item 3</a>
+                    <a class="list-group-item disabled">Item 4</a>
+                    <a class="list-group-item">Item 5</a>
+                </div>
+                
+                <hr>
+                Abas (Tabs)
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab">nav para indicar que é navegação, a primeira tem que estar em active para funcionar</a></li>
+                    <li ><a data-toggle="tab">nav tabs para indicar que é navegação em abas</a></li>
+                    <li ><a href="#home" data-toggle="tab">Home</a></li>
+                    <li ><a href="#sobre" data-toggle="tab">Sobre</a></li>
+                    <li ><a href="#contato" data-toggle="tab">Contato</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="home" class="tab-pane active in fade">
+                        conteudo do home
+                    </div>
+                    <div id="sobre" class="tab-pane fade"> 
+                        conteudo sobre
+                    </div>
+                    <div id="contato" class="tab-pane fade">
+                        conteudo de contato
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
